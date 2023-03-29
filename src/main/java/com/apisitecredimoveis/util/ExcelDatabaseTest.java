@@ -16,7 +16,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelDatabaseTest {
     public static void main(String[] args) {
-        String jdbcURL = "jdbc:postgresql://localhost:5432/postgres";
+        String jdbcURL = "jdbc:postgresql://192.168.13.249:5432/postgres";
         String username="postgres";
         String password="toor";
 
